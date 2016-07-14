@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+a { color: #39c; }
+
+body > header {
+	background-color: #ddd;
+	padding: 20px;
+	border-bottom: 3px solid #ccc;
+}
+
+body > header > h1 {
+	margin: 0;
+}
+
+h1 > a {
+	color: black;
+	text-decoration: none;
+}
+
+h1 > a:hover {
+	background-color: #bbb;
+}
+
+nav {
+	margin: 0 30px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline;
+}
+
+#main {
+	margin: 0 30px;
+}
+
+.status {
+	padding: 10px;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 10px;
+}
+
+ul.error_list {
+	border: 1px solid red;
+	background-color: #fcc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul.error_list li {
+	color: red;
+}

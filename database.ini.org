@@ -1,0 +1,8 @@
+[Datasource]
+dsn_prefix = "mysql"
+host = "127.0.0.1"
+dbname = "testdb"
+
+[Database]
+user = "user"
+password = "pass"

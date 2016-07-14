@@ -1,0 +1,9 @@
+SetEnvIf X-Forwarded-Proto ^https$ HTTPS=on
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase   /demo
+#	RewriteCond   %{REQUEST_FILENAME} !-d
+	RewriteCond   %{REQUEST_FILENAME} !-f
+	RewriteRule   ^(.*)$ index_dev.php [QSA,L]
+</IfModule>
